@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMPORTACIÓN Y EXPORTACIÓN</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #0aa317c5;
+            color: #fff;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 2em;
+            background-color: #4d2c16bb;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(40, 189, 10, 0.781);
+        }
+
+        button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #0aa317c5;
+            color: #faf7f6;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 0.5em;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        textarea {
+            width: 100%;
+            height: 150px;
+            margin-top: 1em;
+            padding: 1em;
+            box-sizing: border-box;
+        }
+
+        footer {
+            margin-top: 20px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>IMPORTACIÓN Y EXPORTACIÓN</h1>
+    </header>
+
+    <div class="container">
+        <button onclick="mostrarFormulario('importacion')">
+            <img src="./img/1.webp" alt="Importación" style="max-width: 100%; height: auto;">
+            Importación
+        </button>
+        <button onclick="mostrarFormulario('exportacion')">
+            <img src="./img/2.webp" alt="Exportación" style="max-width: 100%; height: auto;">
+            Exportación
+        </button>
+
+        <div id="formularioImportacion" style="text-align: center;">
+            <h2>Que es la Importación</h2>
+            <textarea placeholder="La importación es un proceso fundamental en el ámbito comercial y económico que implica la introducción de bienes y servicios desde un país extranjero al país de destino. Este fenómeno se lleva a cabo a través de transacciones comerciales internacionales y es esencial para satisfacer las demandas y necesidades de los consumidores, así como para garantizar la disponibilidad de una amplia variedad de productos en el mercado nacional.
+
+            Existen varias razones por las cuales los países participan activamente en el proceso de importación. En primer lugar, la importación permite acceder a productos que no están fácilmente disponibles a nivel local o que pueden ser producidos de manera más eficiente en otros lugares. Esto contribuye a la diversificación de la oferta de bienes y servicios, ofreciendo a los consumidores una gama más amplia de opciones.
+            
+            Además, la importación facilita el intercambio internacional y fomenta la colaboración entre naciones. A través de la importación, se establecen relaciones comerciales que pueden tener beneficios económicos y diplomáticos a largo plazo. Los acuerdos comerciales y tratados internacionales a menudo se basan en la facilitación y regulación de la importación y exportación.
+            
+            El proceso de importación implica una serie de pasos, que incluyen la identificación de productos a importar, la negociación de términos comerciales, la realización de trámites aduaneros y el transporte de la mercancía. La aduana desempeña un papel crucial en este proceso al verificar y regular la entrada de bienes al país, aplicando aranceles y asegurando el cumplimiento de las normativas y regulaciones locales.
+            
+            Es importante destacar que la importación no solo se limita a bienes tangibles, sino que también puede incluir servicios, tecnología y conocimientos especializados. En el contexto de la globalización, la importación se ha convertido en un componente esencial para el crecimiento económico y el desarrollo sostenible, ya que permite a los países aprovechar los recursos y la experiencia disponibles en el ámbito internacional.
+            
+            En resumen, la importación es un proceso dinámico y estratégico que contribuye significativamente a la economía global, promoviendo el intercambio comercial, la diversificación de productos y la colaboración entre naciones."></textarea>
+        </div>
+
+        <div id="formularioExportacion" style="text-align: center;">
+            <h2>Que es la Exportación</h2>
+            <textarea placeholder="La exportación es un componente crucial en el ámbito comercial que implica la venta y envío de bienes y servicios producidos en un país a mercados extranjeros. Este proceso desempeña un papel vital en el desarrollo económico, ya que permite a las empresas ampliar su alcance y contribuir al crecimiento de la economía nacional. La exportación no solo beneficia a las empresas individuales, sino que también fortalece la posición competitiva de un país en la economía global.
+
+            Existen diversas razones por las cuales las empresas y los países participan activamente en la exportación. En primer lugar, la exportación proporciona acceso a nuevos mercados y oportunidades de crecimiento. Al expandir la base de clientes más allá de las fronteras nacionales, las empresas pueden aumentar sus ingresos y reducir su dependencia de los mercados internos, lo que puede ser particularmente beneficioso en momentos de desafíos económicos locales.
+            
+            La exportación también facilita la optimización de recursos y la especialización. Al enviar productos y servicios a mercados donde hay una demanda específica, las empresas pueden aprovechar sus ventajas comparativas y mejorar su eficiencia productiva. Esto puede conducir a una asignación más eficiente de los recursos y a la mejora de la competitividad a nivel internacional.
+            
+            Además, la exportación contribuye al intercambio cultural y tecnológico entre países. A medida que los bienes y servicios atraviesan las fronteras, también lo hacen las ideas, la innovación y la tecnología. Este intercambio puede tener efectos positivos en la transferencia de conocimientos y en el desarrollo de capacidades técnicas, beneficiando tanto a los países exportadores como a los importadores.
+            
+            El proceso de exportación implica una serie de pasos, que van desde la identificación de mercados potenciales hasta la adaptación de productos a las necesidades específicas de los clientes extranjeros, la negociación de contratos comerciales, la gestión de trámites aduaneros y el transporte internacional de mercancías. Las regulaciones comerciales, los aranceles y las políticas aduaneras son aspectos importantes a considerar en el proceso de exportación.
+            
+            En resumen, la exportación es un elemento esencial en la dinámica del comercio internacional, brindando oportunidades de crecimiento económico, fomentando la especialización y contribuyendo al intercambio de conocimientos a nivel global. Además, desempeña un papel fundamental en la construcción de relaciones comerciales internacionales y en el fortalecimiento de la posición competitiva de los países en la escena mundial.
+            
+            
+            
+            
+            
+            "></textarea>
+        </div>
+    </div>
+
+    <footer style="color: #0a0c0a;">
+        Elaborado por: Perez Juarez Luis Javier, Ochoa Murillo Santiago Daniel, David Contreras Luna
+    </footer>
+
+    <script>
+        function mostrarFormulario(tipo) {
+            document.getElementById('formularioImportacion').style.display = tipo === 'importacion' ? 'block' : 'none';
+            document.getElementById('formularioExportacion').style.display = tipo === 'exportacion' ? 'block' : 'none';
+        }
+    </script>
+
+</body>
+</html>
